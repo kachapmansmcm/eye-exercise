@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+p {
+  color: #fff;
+}
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -177,13 +181,98 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.eyes {
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  overflow: hidden;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 100%;
+  top: 100px;
+  bottom: auto;
+  opacity: 1;
+  transition: ease-in-out 0.4s;
+  z-index: 2;
+  padding-bottom: 45px;
+}
+
+
+
+section .container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+}
+
+section .container hr {
+  border: 0;
+  border-top: 1px solid #4ceb95;
+  border-bottom: 1px solid #4ceb95;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  section {
+    top: 120px;
+  }
+  section.section-show {
+    top: 80px;
+  }
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #4ceb95;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: -15px 0 15px 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eyes {
+  position: relative;
+  top: 50%%;
+
   width: 100%;
   text-align: center;
 }
+
 .eye {
   width: 240px;
   height: 120px;
