@@ -1,0 +1,44 @@
+<html>
+  <head> 
+    <link href="assets/css/eyes.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <header id="header" class="header-top">
+      <div class="container">
+        <h1><a href="../index.html" style="text-decoration: none;">Kevin Chapman</a></h1>
+        <nav id="navbar" class="navbar">
+            <ul>
+            <li><a class="nav-link" href="https://kachapmansmcm.github.io/index.html">Home</a></li>
+            <li><a class="nav-link" href="https://kachapmansmcm.github.io/index.html#about">About</a></li>
+            <li><a class="nav-link active" href="https://kachapmansmcm.github.io/index.html#projects">Projects</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+  </head>
+ 
+
+  <body>
+    <div class="eyes">
+      <div class="eye">
+        <div class="ball"></div>
+      </div>
+      <div class="eye">
+        <div class="ball"></div>
+      </div>
+    </div>
+  </body>
+  <script>
+    var balls = document.getElementsByClassName("ball");
+    document.onmousemove = () => {
+      var x = (event.clientX * 100) / window.innerWidth + "%";
+      var y = (event.clientY * 100) / window.innerHeight + "%";
+
+      for (let i = 0; i < 2; i++) {
+        balls[i].style.left = x;
+        balls[i].style.top = y;
+        balls[i].transfoorm = "translate(-" + x + ",-" + y + ")";
+      }
+    };
+  </script>
+</html>
