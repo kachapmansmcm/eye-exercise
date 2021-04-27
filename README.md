@@ -37,6 +37,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
@@ -70,9 +71,13 @@ This is a simple webpage that can be hosted from any basic HTTP server.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This is a Github pages website to demonstrate CSS and user input
+This is a Github pages website to demonstrate CSS and user input.  Simply move your mouse around and the Eyes will follow.
 
+<!-- ROADMAP -->
+## Roadmap
 
+Changes I would like to make to this project in the future are:
+* There are no updates for this page currently planned.
 
 
 <!-- LICENSE -->
