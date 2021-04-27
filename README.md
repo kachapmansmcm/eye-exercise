@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 
-  <h3 align="center">GitHub Portfolio Website</h3>
+  <h3 align="center">Eye Tracking Exercise</h3>
 
   <p align="center">
     This is a project that takes the user mouse movements and tracks them with an Eye ball with CSS and Javascript
