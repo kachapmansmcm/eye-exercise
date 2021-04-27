@@ -49,6 +49,11 @@
 
 [![product-screenshot]](https://github.com/kachapmansmcm/eye-exercise)
 
+The project requirements were as follows:
+* Create two side by side DIVs to hold the eyes
+* have a javascript method to track the user's mouse movements
+* update the orientation of the "pupils" in realtion to the mouse movements.
+
 
 ### Built With
 
