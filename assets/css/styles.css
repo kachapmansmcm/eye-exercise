@@ -236,9 +236,10 @@ section .container hr {
 }
 
 /*specific to this page*/
+
 .eyes {
   position: relative;
-  top: 50%%;
+  top: 50%;
 
   width: 100%;
   text-align: center;
