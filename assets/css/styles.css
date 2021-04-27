@@ -195,14 +195,6 @@ section .container hr {
   opacity: 1;
 }
 
-@media (max-width: 768px) {
-  section {
-    top: 120px;
-  }
-  section.section-show {
-    top: 80px;
-  }
-}
 
 .section-title h2 {
   font-size: 14px;
