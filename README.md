@@ -13,7 +13,7 @@
     <a href="https://github.com/kachapmansmcm/eye-exercise"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://kachapmansmcm.github.io/">View Demo</a>
+    <a href="https://kachapmansmcm.github.io/eye-exercise/">View Demo</a>
   </p>
 </p>
 
