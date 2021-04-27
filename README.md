@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/kachapmansmcm/eye-exercise)
+[![product-screenshot]](https://github.com/kachapmansmcm/eye-exercise)
 
 
 ### Built With
@@ -70,7 +70,7 @@ This is a simple webpage that can be hosted from any basic HTTP server.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This is a Github pages website to showcase your Projects.
+This is a Github pages website to demonstrate CSS and user input
 
 
 
@@ -101,4 +101,4 @@ Project Link: [https://github.com/kachapmansmcm/eye-exercise](https://github.com
 
 [license-shield]: https://img.shields.io/badge/license-MIT-green
 [license-url]: https://github.com/kachapmansmcm/eye-exercise/blob/main/LICENSE
-[product-screenshot]: assets/img/eyes.png
+[product-screenshot]: assets/img/eyes.PNG
