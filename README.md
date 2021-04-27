@@ -8,9 +8,9 @@
   <h3 align="center">GitHub Portfolio Website</h3>
 
   <p align="center">
-    This is a website created with Bootstrap designed to introduce yourself as a developer and show case your projects.
+    This is a project that takes the user mouse movements and tracks them with an Eye ball with CSS and Javascript
     <br />
-    <a href="https://github.com/kachapmansmcm/kachapmansmcm.github.io"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kachapmansmcm/eye-exercise"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://kachapmansmcm.github.io/">View Demo</a>
@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://kachapmansmcm.github.io/)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/kachapmansmcm/eye-exercise)
 
 
 ### Built With
@@ -87,7 +87,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
-Project Link: [https://github.com/kachapmansmcm/kachapmansmcm.github.io](https://github.com/kachapmansmcm/kachapmansmcm.github.io)
+Project Link: [https://github.com/kachapmansmcm/eye-exercise](https://github.com/kachapmansmcm/eye-exercise)
 
 
 
@@ -100,6 +100,5 @@ Project Link: [https://github.com/kachapmansmcm/kachapmansmcm.github.io](https:/
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [license-shield]: https://img.shields.io/badge/license-MIT-green
-[license-url]: https://github.com/kachapmansmcm/kachapmansmcm.github.io/blob/main/LICENSE
-[product-screenshot]: assets/img/site2.PNG
-[Product Name Screen Shot]: assets/img/site1.PNG
+[license-url]: https://github.com/kachapmansmcm/eye-exercise/blob/main/LICENSE
+[product-screenshot]: assets/img/eyes.png
